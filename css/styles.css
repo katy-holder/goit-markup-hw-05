@@ -92,7 +92,8 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-logotyp:hover {
@@ -112,7 +113,8 @@ img {
     letter-spacing: 0.02em;
     padding-right: 93px;
     color: var(--main-title-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-item {
@@ -130,7 +132,8 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
@@ -179,7 +182,8 @@ img {
     align-items: center;
     color: var(--main-text-color);
     margin-right: 30px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-tel:last-child {
@@ -477,8 +481,9 @@ img {
 
 .team-social-icon {
     fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear,
+    background-color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -525,8 +530,9 @@ img {
     justify-content: center;
     align-items: center;
     color: var(--main-color-icon);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear,
+    bordtr 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-social-icon {
@@ -587,7 +593,8 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-btn-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logotyp:hover,
@@ -603,7 +610,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-btn-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav-link:hover,
@@ -618,7 +626,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-tel {
@@ -628,7 +637,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ttransition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-mail:hover,
@@ -691,8 +701,9 @@ img {
      rgba(0, 0, 0, 0.25)
      );
      color: var(--main-btn-color);
-     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: color 250ms linear,
+     background-color 250ms linear;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -767,7 +778,8 @@ img {
 
 .gallery-nav-item {
     padding-right: 8px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -799,8 +811,9 @@ img {
     background: #F5F4FA;
     border-radius: 4px;
     padding: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear,
+    background-color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-all {
@@ -847,7 +860,8 @@ img {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     box-sizing: border-box;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-item:hover {
